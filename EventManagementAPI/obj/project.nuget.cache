@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "B8l9uqYlkRLvJ559KLffS1Lg/WvlTCetr9e38S1+FwyEM0dfzLhaJ6uU75+rfxCFIAp6YmzJyavnhXcw+RjVwA==",
+  "success": true,
+  "projectFilePath": "/Users/carloscabrera/projects/dotnet/EventManagementAPI/EventManagementAPI/EventManagementAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/carloscabrera/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/carloscabrera/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/carloscabrera/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/carloscabrera/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/carloscabrera/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/carloscabrera/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
