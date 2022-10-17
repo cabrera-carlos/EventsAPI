@@ -1,0 +1,24 @@
+name: Continuous-integration
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build-dotnet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Set up dotnet
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Build dotnet
+        run: dotnet build -C Release --no-restore
