@@ -3,7 +3,7 @@ name: Continuous-integration
 on:
   push:
     branches:
-      - "main"
+      - main
 
 jobs:
   build-dotnet:
@@ -22,3 +22,7 @@ jobs:
 
       - name: Build dotnet
         run: dotnet build -c Release --no-restore
+
+      - name: Run tests
+        run: dotnet test -c Release --no-build
+        

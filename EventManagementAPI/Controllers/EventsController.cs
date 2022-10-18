@@ -39,7 +39,7 @@ namespace EventManagementAPI.Controllers
 
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created, Type =typeof(Event))]
-        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)] 
         public IActionResult Add([FromBody] Event newEvent)
         {
             if (newEvent.Id < 1)
