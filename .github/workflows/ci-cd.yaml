@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  AZURE_WEBAPP_NAME: events-management-v1     # set this to your application's name
+  AZURE_WEBAPP_NAME: events-management-v111     # set this to your application's name
   DOTNET_VERSION: '6.0.x'                     # set this to the dot net version to use
   AZURE_WEBAPP_PACKAGE_PATH: '.'              # set this to the path to your web app project, defaults to the repository root
 
